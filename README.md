@@ -23,8 +23,7 @@ Advice-Assignment/
 │   └── ...
 ```
 
-- `server/` contains the backend logic: API endpoints, SignalR hub, data access layer (Dapper + EF Core), and core services.
-- `client/` is a standard React client that communicates with the backend through REST and SignalR.
+Note: the actual folder names are `AdviceAssignement` (for the server) and `advice` (for the client), but we'll refer to them here as `server/` and `client/` for clarity.
 
 ## How to Run the Project
 
