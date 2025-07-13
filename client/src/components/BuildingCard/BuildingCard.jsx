@@ -5,8 +5,8 @@ import "./styles.css";
 function BuildingCard({ building }) {
   return (
     <Link to={`/building/${building.id}`} className="building-card">
-      <div>{building.name}</div>
-      <div>{building.numberOfFloors}</div>
+      <h5>{building.name}</h5>
+      <h6>{building.numberOfFloors} Floors</h6>
     </Link>
   );
 }
