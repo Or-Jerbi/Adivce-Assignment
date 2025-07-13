@@ -79,3 +79,8 @@ REACT_APP_BACKEND_URL=https://localhost:7266
 - Improved UI/UX design and responsiveness
 - More intuitive navigation flow between screens
 - Unit and integration tests
+
+
+<img width="1851" height="898" alt="image" src="https://github.com/user-attachments/assets/4810c2ab-6742-4265-87ab-eb2f45a69d6a" />
+
+<img width="1829" height="917" alt="image" src="https://github.com/user-attachments/assets/b8eeffaa-db73-44ad-a31c-ef84fb812552" />
