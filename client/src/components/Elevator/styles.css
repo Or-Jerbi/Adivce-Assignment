@@ -1,0 +1,16 @@
+.elevator {
+  flex-shrink: 0;
+  min-width: 50px;
+  width: 10%;
+  height: 80%;
+  background-color: #444;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.elevator div {
+  color: #ffffff;
+  font-size: 1.5vh;
+}

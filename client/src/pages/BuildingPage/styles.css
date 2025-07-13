@@ -1,0 +1,61 @@
+.building {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 95vh;
+  overflow: hidden;
+  border: 15px solid #ffffff;
+  margin: 0 auto;
+}
+
+.floor {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid #ffffff;
+  width: 100%;
+  position: relative;
+  padding: 0 10px;
+  background-color: #f9f9f9;
+}
+
+.floor-number {
+  margin-left: 50vh;
+  align-items: center;
+  font-size: 14px;
+  border: 2px solid #003c7b;
+  background-color: #e6f0ff;
+  color: #003c7b;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.floor-number:disabled {
+  background-color: #e0e0e0;
+  color: #888;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.floor-number.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.elevator-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50vh;
+}
+
+.elevator-buttons button {
+  height: 2vh;
+  font-size: 1.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+}
