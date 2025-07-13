@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { getAllElevatorCalls } from "./services/elevatorCallService";
 import Register from "./pages/Register/registerPage";
 import BuildingManagement from "./pages/BuildingManagement/buildingManagementPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
